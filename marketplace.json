@@ -1,5 +1,5 @@
 {
-  "label": "Jira",
+  "label": "Jira (Legacy)",
   "category_label": "Models",
   "branding": {
     "image_uri": "https://marketplace-api.looker.com/block-icons/jira_icon.png",
@@ -29,7 +29,7 @@
   ],
   "auxiliary_projects": [
     {
-      "git_uri": "git://github.com/looker/block-jira-config.git",
+      "git_uri": "git://github.com/looker/block-jira-legacy-config.git",
       "git_ref": "cb0a2ebb83209753215567b62738627cb0eb8002",
       "label": "Jira Config",
       "constant_name": "CONFIG_PROJECT_NAME"
