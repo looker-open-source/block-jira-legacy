@@ -64,7 +64,3 @@ Format for adding a history table for a custom field:
 select erh."issue_id", erh."time", fo."name", 'Op Equipment Request' as "changed" from jira.issue_op_equipment_request_history erh
 LEFT OUTER JOIN jira.field_option fo on erh.field_option_id = fo.id
 ```
-
-### What if I find an error? Suggestions for improvements?
-
-Great! Blocks were designed for continuous improvement through the help of the entire Looker community and we'd love your input. To report an error or improvement recommendation, please reach out to Looker support via email to support@looker.com or via chat to submit a request. Please be as detailed as possible in your explanation and we'll address it as quick as we can.
